@@ -7,7 +7,15 @@ authors = [
     { name = "unknown", email = "3517142071@qq.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipywidgets>=8.1.9",
+    "langchain>=1.3.18",
+    "langchain-community>=0.4.2",
+    "langchain-deepseek>=1.1.0",
+    "langchain-openai>=1.6.0",
+    "openai>=3.7.0",
+]
 
 [project.scripts]
 agent-dev = "agent_dev:main"

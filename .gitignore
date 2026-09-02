@@ -1,2 +1,31 @@
+# 环境变量，密钥，绝对不能提交
 .env
 .env.*
+
+# uv虚拟环境（重点！不要提交.venv文件夹）
+.venv/
+venv/
+
+# python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE vscode
+.vscode/
+*.code‑workspace
+.idea/
+
+# 操作系统生成垃圾文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# jupyter notebook缓存
+.ipynb_checkpoints
+
+# uv的临时文件（一般不需要，写上更保险）
+*.uv.lock.bak
