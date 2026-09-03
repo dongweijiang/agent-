@@ -14,6 +14,7 @@ dependencies = [
     "langchain-community>=0.4.2",
     "langchain-deepseek>=1.1.0",
     "langchain-openai>=1.6.0",
+    "langchain-tavily>=0.2.18",
     "openai>=3.7.0",
 ]
 

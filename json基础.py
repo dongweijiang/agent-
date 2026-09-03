@@ -8,6 +8,8 @@ my_dict={
 
 my_list=[1,'周杰伦',{'1':2,'content':'你好'}]
 
+
+#json.dumps方法可以把字典/列表转成json，json.load则可以把json转成字典/列表
 json_dict=json.dumps(my_dict,ensure_ascii=False)
 
 json_list=json.dumps(my_list,ensure_ascii=False)
